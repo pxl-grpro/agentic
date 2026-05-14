@@ -1,0 +1,164 @@
+# Course instructions
+
+## Purpose
+
+This repository contains course material written in AsciiDoc.
+Agents working in this repository MUST produce content that matches the existing course structure and writing style.
+
+The goal is to create complete course material as a set of modules and chapters.
+
+## Scope
+
+These instructions apply to all content created under `Course/`.
+
+Use these rules when you:
+
+- create a new module
+- create a new chapter
+- update an existing chapter
+- propose file or folder names inside the course root
+- add code examples, exercises, notes, warnings, tables, or images to a chapter
+
+## Repository Structure
+
+- a course contains multiple modules
+- every module is a separate subfolder inside `Course/Modules/`
+- every module starts with a `00-objectives.adoc` file
+- every module contains one or more additional chapter files
+- every chapter is a separate `.adoc` file
+- module assets belong inside the module folder
+- chapter images belong in the local `images/` folder of that module
+- code solutions, demos, or sample projects MAY be stored in a local `source/` folder when needed
+
+Example:
+
+```text
+Course/
+	Modules/
+		05-minimal-api/
+			00-objectives.adoc
+			01-intro.adoc
+			02-results.adoc
+			images/
+			source/
+```
+
+## Naming Rules
+
+Agents MUST use kebab-case for all file and folder names inside `Course/`:
+
+- lowercase letters only
+- English words only — no Dutch or other languages
+- words separated by hyphens; no spaces, no underscores
+- keep the existing numeric prefix pattern for order
+- do not rename existing files or folders unless explicitly asked
+
+Examples: `03-api` (valid), `04-labo-template.adoc` (valid), `03_API` (invalid), `04 Labo Template.adoc` (invalid)
+
+## Writing Style
+
+All chapter content MUST be written in Dutch.
+
+- use the `je` form consistently
+- keep the tone professional but approachable
+- start with a short orientation sentence, then build the explanation step by step
+- prefer short, readable paragraphs with concrete examples
+- keep each chapter short and focused: introduction → explanation → example → practical usage
+- use AsciiDoc elements when useful: bullet lists, numbered lists, tables, NOTE blocks, CAUTION blocks
+- keep terminology consistent across chapters and align with the existing course progression
+
+## Admonitions
+
+When obvious tips or pitfalls exist, make them visible with an admonition block:
+
+- use `[TIP]` for best practices — things a student should do to work effectively
+- use `[WARNING]` for bad practices — things a student should avoid because they cause problems
+
+AsciiDoc admonition block pattern:
+
+```adoc
+[TIP]
+====
+Tip text here.
+====
+
+[WARNING]
+====
+Warning text here.
+====
+```
+
+Agents MUST NOT bury best-practice or bad-practice advice in plain paragraph text when an admonition block would make it stand out.
+
+## Code Example Rules
+
+- code examples use English variable names
+- code comments are written in English
+- code blocks always use an explicit AsciiDoc source tag with the correct language (`csharp`, `json`, `bash`, `powershell`, or `text`)
+- code must be minimal but realistic and support the surrounding Dutch explanation
+- code should reflect current .NET and ASP.NET Core practices where relevant
+- if a code example is intentionally incomplete, mark it with a `TODO` label in the text or code
+
+AsciiDoc code block pattern:
+
+```adoc
+[source,csharp]
+----
+public class InvoiceService
+{
+    private readonly Calculator _calculator;
+
+    public InvoiceService(Calculator calculator)
+    {
+        _calculator = calculator;
+    }
+}
+----
+```
+
+Agents MUST NOT:
+
+- mix Dutch variable names into code examples
+- use untagged code fences where an AsciiDoc source block is required
+- add oversized listings when a smaller example explains the concept better
+
+## Hyperlinks
+
+All external hyperlinks MUST open in a new browser tab.
+In AsciiDoc, add `^` at the end of the link text to achieve this:
+
+```adoc
+https://example.com[https://example.com^]
+```
+
+By default, the link text is equal to the link URL.
+Only use a different link text when there is a clear reason (e.g. the URL is too long to display meaningfully).
+
+Agents MUST NOT write external links without the `^` modifier.
+
+## Images And Assets
+
+- store images in the module-local `images/` folder
+- use kebab-case file names
+- `:imagesdir: images` is active in every chapter header
+
+## Course Content Plan
+
+The full list of modules and chapters for this course is maintained in `COURSE.md` at the repository root.
+
+Consult `COURSE.md` before:
+
+- creating a new module or chapter
+- deciding on module or chapter numbering
+- choosing a title or topic for new content
+
+`COURSE.md` is the single source of truth for which modules exist or are planned, their numeric prefixes, chapter order, and status. Update the status column when content is added or completed.
+
+Agents MUST NOT invent module numbers, folder names, or chapter titles that contradict `COURSE.md`.
+
+## Skills
+
+Use these skills for structured tasks:
+
+- `/new-chapter` — scaffold a new chapter file with the correct header and register it in `COURSE.md`
+- `/validate-chapter` — check an existing chapter against all course quality rules and get a PASS/FAIL report
