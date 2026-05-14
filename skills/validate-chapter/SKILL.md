@@ -20,7 +20,7 @@ Read the full file content before running any checks.
 Run every check below. For each one, report PASS or FAIL with a short explanation of what was found.
 
 ### 1. Standard document header
-- First line is `= Programming Fundamentals`
+- First line is `= {Course Title}`
 - Second line is `Graduaat programmeren`
 - All required attributes are present: `:doctype:`, `:source-language:`, `:imagesdir:`, `:icons:`, `:sectnums:`, `:toc:`, `:toc-title:`, `:toclevels:`, `:nofooter:`, `:sectlinks:`
 

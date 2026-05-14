@@ -5,12 +5,26 @@ Skills, agents & instructions for agentic courses with GitHub copilit (CLI)
 ## Getting started
 ### APM - Agent Package Manager
 
-- installeer (https://microsoft.github.io/apm/)[APM]
+- installeer [https://microsoft.github.io/apm/](https://microsoft.github.io/apm/)
 
-### Gebruik instructions, agents en skills
+### APM project aanmaken
 
 ```
-apm install ...
+apm init
+```
+
+### Installeer 
+
+#### Instructions
+
+```
+apm install pxl-grpro/agentic/instructions/course-authoring.instructions.md
+```
+
+#### Skills
+
+```
+apm install pxl-grpro/agentic/instructions/course-authoring.instructions.md
 ```
 
 ### COURSE.md
