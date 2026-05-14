@@ -1,6 +1,6 @@
 ---
 name: validate-chapter
-description: Check an existing AsciiDoc chapter file against the course quality rules and report any violations as a PASS/FAIL table. Use this skill whenever the user asks to check, review, validate, audit, or verify a chapter — or asks whether a file follows the course rules. Examples: "does this chapter comply?", "review my adoc file", "check chapter quality", "validate the new section", "is this file correct?", "run a quality check on this chapter".
+description: Check an existing AsciiDoc chapter file against the course quality rules and report any violations as a PASS/FAIL table. Use this skill whenever the user asks to check, review, validate, audit, or verify a chapter — or asks whether a file follows the course rules. Examples "does this chapter comply?", "review my adoc file", "check chapter quality", "validate the new section", "is this file correct?", "run a quality check on this chapter".
 ---
 
 # validate-chapter
