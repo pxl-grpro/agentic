@@ -29,6 +29,15 @@ apm install pxl-grpro/agentic/skills/validate-chapter
 
 ```
 
+### Update
+
+Updates van skills, agents & instructies kunnen achteraf heel eenvoudig geïnstalleerd worden:
+
+```
+apm install
+```
+
+
 ### COURSE.md
 
 - Maak een `COURSE.md` bestand aan in de root-directory van je project
