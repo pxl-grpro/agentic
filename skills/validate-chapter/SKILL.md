@@ -1,6 +1,6 @@
 ---
 name: validate-chapter
-description: Check an existing AsciiDoc chapter file against the course quality rules defined in AGENTS.md and report any violations as a PASS/FAIL table. Use this skill whenever the user asks to check, review, validate, audit, or verify a chapter — or asks whether a file follows the course rules. Examples: "does this chapter comply?", "review my adoc file", "check chapter quality", "validate the new section", "is this file correct?", "run a quality check on this chapter".
+description: Check an existing AsciiDoc chapter file against the course quality rules and report any violations as a PASS/FAIL table. Use this skill whenever the user asks to check, review, validate, audit, or verify a chapter — or asks whether a file follows the course rules. Examples: "does this chapter comply?", "review my adoc file", "check chapter quality", "validate the new section", "is this file correct?", "run a quality check on this chapter".
 ---
 
 # validate-chapter
@@ -44,7 +44,7 @@ Run every check below. For each one, report PASS or FAIL with a short explanatio
 - Every code block uses an explicit `[source,<lang>]` tag — no untagged fences or bare `----` blocks
 
 ### 8. No Dutch identifiers in code
-- Spot-check code blocks: flag any Dutch variable names, method names, or identifiers (English-only rule from AGENTS.md)
+- Spot-check code blocks: flag any Dutch variable names, method names, or identifiers
 
 ### 9. External links
 - Every external `http://` or `https://` link ends with the `^` modifier inside `[...]`

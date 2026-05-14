@@ -1,6 +1,6 @@
 ---
 name: new-chapter
-description: Scaffold a new AsciiDoc chapter file that complies with the course structure defined in AGENTS.md, and register it in COURSE.md. Use this skill whenever the user asks to create, add, write, or start a new chapter, section, or lesson — even if they don't say "scaffold" or "AsciiDoc". Examples: "add a chapter about exceptions", "create a new section on APIs", "start chapter 3 in module 5", "write the intro chapter for loops".
+description: Scaffold a new AsciiDoc chapter file that complies with the course structure, and register it in COURSE.md. Use this skill whenever the user asks to create, add, write, or start a new chapter, section, or lesson — even if they don't say "scaffold" or "AsciiDoc". Examples: "add a chapter about exceptions", "create a new section on APIs", "start chapter 3 in module 5", "write the intro chapter for loops".
 ---
 
 # new-chapter
@@ -47,7 +47,7 @@ toc::[]
 == <Eerste sectietitel>
 ```
 
-   Writing rules (drawn from AGENTS.md):
+   Writing rules:
    - Complete `In dit hoofdstuk leer je ...` with a concrete statement about what the reader will learn
    - Body text is written in Dutch, `je`-form, professional but approachable
    - Structure: introduction → explanation → example → practical usage
