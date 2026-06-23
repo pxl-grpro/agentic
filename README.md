@@ -28,6 +28,7 @@ apm install pxl-grpro/agentic/instructions/pdf-adoc-assembly.instructions.md
 apm install pxl-grpro/agentic/skills/new-chapter
 apm install pxl-grpro/agentic/skills/validate-chapter
 apm install pxl-grpro/agentic/skills/generate-objectives
+apm install pxl-grpro/agentic/skills/generate-questions
 ```
 
 ### Update
