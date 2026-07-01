@@ -46,6 +46,8 @@ Graduaat programmeren
 
 - Write all prose in Dutch and use the `je` form.
 - Formulate each objective from student behavior (implicit form: `je kan ...`; attitude goals: `je wil ...`).
+- Ensure each bullet is grammatically correct when read directly after `Na het afronden van deze module kan je:`.
+- Prefer the Dutch pattern `object/complement + infinitive` (for example: `de rol van ... beschrijven`, `een app opstarten`, `configuratie terugvinden`).
 - Start each objective with an action-oriented infinitive verb (`uitleggen`, `vergelijken`, `aanmaken`, `instellen`, `bouwen`, `beschrijven`, `opzetten`, `registreren`, `gebruiken`, `integreren`).
 - Use observable action verbs only. Avoid vague verbs such as `kennen`, `begrijpen`, `inzien`, `weten`.
 - Keep objectives concrete and assessable: each item should describe observable behavior.
@@ -57,6 +59,20 @@ Graduaat programmeren
 - Add conditions or minimum performance criteria only when they are instructionally relevant and measurable.
 - Keep code identifiers and framework types in English where relevant (for example `NavigationManager`, `EventCallback`, `EditForm`, `IDbContextFactory<T>`).
 
+### Dutch Grammar Guardrails (mandatory)
+
+- Reject nominalized forms that break the sentence after `kan je`, such as:
+	- `beschrijven van ...`
+	- `opstarten van ...`
+	- `terugvinden van ...`
+	- `toepassen van ...`
+- Rewrite those to valid forms:
+	- `de rol van ... beschrijven`
+	- `een app opstarten`
+	- `platformspecifieke configuratie terugvinden`
+	- `basis-XAML-syntax toepassen`
+- During review, read every bullet aloud with the lead-in sentence to validate fluency and grammar.
+
 ## Quality Checklist
 
 Before finalizing, verify:
@@ -67,6 +83,7 @@ Before finalizing, verify:
 - `== Overzicht` is present and concise.
 - `== Leerdoelstellingen` contains clear, measurable bullet points.
 - Every objective is phrased as observable student behavior (implicitly `je kan`/`je wil`).
+- Every objective is grammatically correct after `Na het afronden van deze module kan je:`.
 - Every objective uses an observable action verb (not `kennen`/`begrijpen`/`inzien`/`weten`).
 - Every objective is single-action and concrete in inhoud.
 - No objective is duplicated or overly broad.
