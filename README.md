@@ -1,8 +1,9 @@
-# Agentic courses 
+# Agentic courses
 
 Skills, agents & instructions for agentic courses with GitHub copilit (CLI)
 
 ## Getting started
+
 ### APM - Agent Package Manager
 
 - installeer [https://microsoft.github.io/apm/](https://microsoft.github.io/apm/)
@@ -13,7 +14,7 @@ Skills, agents & instructions for agentic courses with GitHub copilit (CLI)
 apm init
 ```
 
-### Installeer 
+### Installeer
 
 #### Instructions
 
@@ -38,7 +39,6 @@ Updates van skills, agents & instructies kunnen achteraf heel eenvoudig geïnsta
 ```
 apm install
 ```
-
 
 ### COURSE.md
 
@@ -89,3 +89,7 @@ create a new chapter in module 1 called "introductie". the chapter must contain 
 ### From COURSE.md
 
 Je kan ook zelf inhoud toevoegen aan het `COURSE.md`-bestand en daarna vragen aan copilot om deze hoofdstukken te genereren.
+
+## .gitignore
+
+Gebruik het `.gitignore`-bestand om overbodige bestanden uit te sluiten
