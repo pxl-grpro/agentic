@@ -37,7 +37,7 @@ apm install pxl-grpro/agentic/skills/generate-questions
 Updates van skills, agents & instructies kunnen achteraf heel eenvoudig geïnstalleerd worden:
 
 ```
-apm install
+apm update
 ```
 
 ### COURSE.md
