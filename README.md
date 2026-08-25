@@ -21,7 +21,7 @@ apm init
 ```
 apm install pxl-grpro/agentic/instructions/course-authoring.instructions.md
 apm install pxl-grpro/agentic/instructions/pdf-adoc-assembly.instructions.md
-apm install pxl-grpro/agentic/instructions/markdown-assembly.instructions.md
+apm install pxl-grpro/agentic/instructions/slides-adoc-assembly.instructions.md
 ```
 
 #### Skills
