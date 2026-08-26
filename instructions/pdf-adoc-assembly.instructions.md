@@ -14,7 +14,6 @@ A module `pdf.adoc` combines all chapter files from the same module in the corre
 ## Required File Selection
 
 - Include only chapter files whose filename starts with a number (`^[0-9]`).
-- Exclude `00-objectives.adoc` (learning objectives do not belong in the chapter bundle).
 - Exclude `pdf.adoc` itself.
 - Ignore non-numbered files such as `extra.adoc`, `labo.adoc`, `oefeningen.adoc`, or any file without a numeric prefix.
 
@@ -43,7 +42,7 @@ include::<chapter-file>.adoc[leveloffset=+1,lines=<start-line>..-1]
 
 ## Checklist
 
-- All numbered chapter files (except `00-objectives.adoc`) are included.
+- All numbered chapter files are included.
 - No non-numbered chapter files are included.
 - Every include uses `leveloffset=+1`.
 - Every include starts at the first section title after the TOC in the chapter file.

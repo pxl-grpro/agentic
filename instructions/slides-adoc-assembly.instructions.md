@@ -29,12 +29,13 @@ Every `slides.adoc` starts with a title slide carrying the document attributes n
 
 ```adoc
 = <Module Title>
-= Variabelen
 :revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@4.5.0
-:revealjs_theme: night
-:source-highlighter: rouge
+:revealjs_customtheme: ../../Theme/pxl-digital-slides.css
+:source-highlighter: highlight.js
 :icons: font
 :revealjs_progress: true
+:highlightjs-theme: github
+:revealjs_transition: convex
 ```
 
 - `<Module Title>` is the Dutch module title, matching the title used in `COURSE.md`
