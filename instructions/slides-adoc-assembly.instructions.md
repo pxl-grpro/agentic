@@ -31,10 +31,11 @@ Every `slides.adoc` starts with a title slide carrying the document attributes n
 = <Module Title>
 :revealjsdir: https://cdn.jsdelivr.net/npm/reveal.js@4.5.0
 :revealjs_customtheme: ../../Theme/pxl-digital-slides.css
+:highlightjsdir: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.12.0/build
 :source-highlighter: highlight.js
+:highlightjs-theme: https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.12.0/build/styles/github.min.css
 :icons: font
 :revealjs_progress: true
-:highlightjs-theme: github
 :revealjs_transition: convex
 ```
 
